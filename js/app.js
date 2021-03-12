@@ -45,9 +45,7 @@ const loadSong = (songs) => {
     artist.textContent = songs.artist;
     music.src = `/music/${songs.name}.mp3`;
     img.src = `/images/${songs.title}.jpg`;
-
 }
-
 
 let songIndex = 0;
 // Next Song 
@@ -57,7 +55,6 @@ const nextSong = () => {
     loadSong(songs[songIndex]);
     playMusic();
 }
-
 
 // Prev Song
 const prevSong = () => {
