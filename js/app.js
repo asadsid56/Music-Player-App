@@ -11,9 +11,13 @@ const next = document.getElementById("next");
 // Fetch Data 
 
 const songs = [
-    {name: "music1", title: "fearless", artist: "Chris Linton"},
+    {name: "music1", title: "pagal", artist: "Ap Dhillon"},
     {name: "music2", title: "invisible", artist: "Julius Dreisig"},
     {name: "music3", title: "fade", artist: "Alain Walker"},
+    {name: "music4", title: "gaani", artist: "AP Dhillon"}, 
+    {name: "music5", title: "kahani-suno", artist: "Khafi Khalil"}, 
+    {name: "bombayah", title: "bombayah", artist: "Black Pink"}, 
+    {name: "ainsi", title: "ainsi", artist: "Indila"}
 ];
 
 let isPlaying = false;
